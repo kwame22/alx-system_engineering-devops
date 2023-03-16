@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {{a..n},{p..z}}{a..z}"\n" o{{a..n},{p..z}}"\n"  | sort -u
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
